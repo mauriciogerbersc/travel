@@ -54,7 +54,8 @@ cd seu-projeto
 - cp backend/.env.example backend/.env
 
 - Edite as variáveis de conexão com o banco no .env (deixe igual às do docker-compose.yml):
-
+  
+```env
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
@@ -77,6 +78,7 @@ DB_PASSWORD=secret
 
 ### Configuração do .env.testing
 
+```env
 APP_ENV=testing
 APP_KEY=base64:testkey
 DB_CONNECTION=sqlite
